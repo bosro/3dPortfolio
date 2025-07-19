@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+  .c-space{
+    @apply sm:px-10 px-5;
+  }
+
+  .nav-ul {
+    @apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20
+  }
+  .nav-li{
+    @apply text-neutral-400 hover:text-white font-publicsans max-sm:hover:bg-black-500
+  }
+
+  .nav-li_a{
+    @apply text-lg md:text-basehover:text-white transition-colors
+  }
+}
